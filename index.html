@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>લાઈફ કોર્સ | Life Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Hind+Vadodara:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Hind Vadodara', sans-serif;
+        }
+        .bg-pattern {
+            background-color: #FFF8E1;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23FBC02D' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h16v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-10 0v-9h-1v9h1zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0h1v5h5v1H6v5H5V6H0V5h5V0h1v5h94v1H6v94H5V6H0V5h5V0h1v5h94v1H6v94H5V6H0V5h5z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .lang-btn {
+            transition: all 0.3s ease;
+        }
+        .lang-btn.active {
+            background-color: #F9A825;
+            color: #4E342E;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-pattern text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 data-key="main_title" class="text-4xl md:text-5xl font-bold text-amber-800 mb-2">લાઈફ કોર્સ</h1>
+            <p data-key="main_subtitle" class="text-lg text-amber-700">જીવન જીવવાની કળા શીખવતો અભ્યાસક્રમ</p>
+            <div class="mt-6 flex justify-center space-x-2">
+                <button onclick="changeLanguage('gu')" id="btn-gu" class="lang-btn px-4 py-2 rounded-full bg-white border border-amber-300 text-amber-800">ગુજરાતી</button>
+                <button onclick="changeLanguage('hi')" id="btn-hi" class="lang-btn px-4 py-2 rounded-full bg-white border border-amber-300 text-amber-800">हिन्दी</button>
+                <button onclick="changeLanguage('en')" id="btn-en" class="lang-btn px-4 py-2 rounded-full bg-white border border-amber-300 text-amber-800">English</button>
+            </div>
+            <div class="mt-6">
+                <a href="https://mvshah027.github.io/life-course/" target="_blank" data-key="header_link" class="inline-block bg-gradient-to-r from-red-500 to-orange-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow text-lg">
+                    'Life Course' મુખ્ય વેબસાઇટની મુલાકાત લો
+                </a>
+            </div>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="bg-white rounded-2xl shadow-lg p-6 md:p-8 mb-10 text-center border-2 border-amber-200">
+            <p data-key="creator_intro" class="text-xl italic text-amber-900 mb-4">
+                'લાઈફ કોર્સ' ના રચયિતા, ગુરુ ભગવંત - પ્રિયમ, જેઓ આપણા સૌના સંસ્કારની ચિંતા કરે છે, તેમને અમારા અનેક વંદન.
+            </p>
+            <p data-key="intro_text" class="text-base md:text-lg text-gray-700">
+                આજના યુગમાં યુવાનોને શાળા-કોલેજમાં દૂષણોથી બચાવવા અને નૈતિક મૂલ્યો સાથે જીવન જીવવા માટેનું માર્ગદર્શન આપતો આ એક અનોખો ડિજિટલ કોર્સ છે. યુગ અને સંયમ વચ્ચેના સંવાદો દ્વારા, આ કોર્સ જીવનના દરેક પાસા પર પ્રકાશ પાડે છે.
+            </p>
+        </section>
+
+        <!-- Why Life Course Section -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-lg border-2 border-amber-200">
+            <h2 data-key="why_what_title" class="text-3xl font-bold text-center text-amber-800 mb-6">લાઈફ કોર્સ શા માટે? અને શું છે?</h2>
+            <div class="text-base text-gray-700 space-y-4 text-justify">
+                <p data-key="why_what_p1"></p>
+                <p data-key="why_what_p2"></p>
+                <p data-key="why_what_p3"></p>
+                <p data-key="why_what_p4"></p>
+            </div>
+        </section>
+        
+        <!-- How to Use Section -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-lg border-2 border-amber-200">
+            <h2 data-key="how_to_use_title" class="text-3xl font-bold text-center text-amber-800 mb-8">અભ્યાસ કેવી રીતે કરવો?</h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <h3 data-key="features_title" class="text-2xl font-semibold text-amber-900 mb-4 border-b-2 border-amber-200 pb-2">ડિજિટલ અભ્યાસ સામગ્રી</h3>
+                    <p data-key="features_intro" class="mb-4 text-gray-700"></p>
+                    <ul class="space-y-3">
+                        <li data-key="feature_1" class="flex items-start"><span class="bg-amber-500 text-white rounded-full w-6 h-6 text-sm flex items-center justify-center mr-3 mt-1 flex-shrink-0">1</span><span></span></li>
+                        <li data-key="feature_2" class="flex items-start"><span class="bg-amber-500 text-white rounded-full w-6 h-6 text-sm flex items-center justify-center mr-3 mt-1 flex-shrink-0">2</span><span></span></li>
+                        <li data-key="feature_3" class="flex items-start"><span class="bg-amber-500 text-white rounded-full w-6 h-6 text-sm flex items-center justify-center mr-3 mt-1 flex-shrink-0">3</span><span></span></li>
+                        <li data-key="feature_4" class="flex items-start"><span class="bg-amber-500 text-white rounded-full w-6 h-6 text-sm flex items-center justify-center mr-3 mt-1 flex-shrink-0">4</span><span></span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 data-key="study_plan_title" class="text-2xl font-semibold text-amber-900 mb-4 border-b-2 border-amber-200 pb-2">અભ્યાસ યોજના</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                            <p class="font-bold text-amber-800" data-key="short_study_title">A. ટૂંકો અભ્યાસ (10-15 min)</p>
+                            <p class="text-sm text-gray-600" data-key="short_study_desc">પોડકાસ્ટ + દ્રશ્ય પ્રસ્તુતિ + ક્વિઝ</p>
+                            <p class="text-sm mt-2 font-semibold" data-key="short_study_use">આદર્શ: સેલ્ફ સ્ટડી, રિવિઝન, ફેમિલી સ્ટડી</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                            <p class="font-bold text-green-800" data-key="full_study_title">B. સંપૂર્ણ અભ્યાસ (25-40 min)</p>
+                            <p class="text-sm text-gray-600" data-key="full_study_desc">ઓડિયો લેક્ચર + પોડકાસ્ટ + દ્રશ્ય પ્રસ્તુતિ + ક્વિઝ</p>
+                            <p class="text-sm mt-2 font-semibold" data-key="full_study_use">આદર્શ: ગ્રુપ સ્ટડી, પાઠશાળા, ક્લાસ વર્ક</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 data-key="usage_title" class="text-2xl font-semibold text-amber-900 mb-4 border-b-2 border-amber-200 pb-2">ઉપયોગ અને વિશેષતાઓ</h3>
+                     <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li data-key="usage_1"></li>
+                        <li data-key="usage_2"></li>
+                        <li data-key="usage_3"></li>
+                        <li data-key="usage_4"></li>
+                        <li data-key="usage_5"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Links Section -->
+        <section class="mb-10 text-center">
+            <h2 data-key="links_title" class="text-3xl font-bold text-center text-amber-800 mb-6">મહત્વપૂર્ણ લિંક્સ</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+                <a href="https://mvshah027.github.io/life-course/" target="_blank" class="block bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span data-key="link_website">મુખ્ય વેબસાઇટ (ડિજિટલ)</span>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1M-Wdrt37pY__KVZwGAmRfUdkSXNNvv4p?usp=sharing" target="_blank" class="block bg-gradient-to-r from-blue-500 to-sky-500 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span data-key="link_gdrive">Word ફાઇલ ડાઉનલોડ (Google Drive)</span>
+                </a>
+                <a href="https://1drv.ms/f/c/5c6716ad7d5d156e/Espu7DPHIwBPhwxp8lBTAcAB0diIbxXMN5Lvi5xMo9xSXw?e=hUmsYa" target="_blank" class="block bg-gradient-to-r from-sky-600 to-cyan-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                     <span data-key="link_onedrive">Word ફાઇલ ડાઉનલોડ (OneDrive)</span>
+                </a>
+                <a href="https://chat.whatsapp.com/KBQhWCKtSLv9ZxBoQJ7Ynd" target="_blank" class="block bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span data-key="link_whatsapp">WhatsApp ગ્રુપમાં જોડાઓ</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center pt-8 border-t border-amber-200">
+            <p data-key="footer_contact" class="text-lg font-semibold text-amber-800">સંપર્ક અને સૂચનો માટે:</p>
+            <p class="text-gray-700 my-2">મનીષ વી. શાહ (વડોદરા)</p>
+            <a href="https://wa.me/919429926447" target="_blank" class="inline-block bg-green-100 text-green-800 font-bold py-2 px-6 rounded-full shadow-sm hover:shadow-md transition-shadow">
+                WhatsApp: +91 94299 26447
+            </a>
+            <div class="mt-6 text-sm text-gray-600">
+                <p data-key="footer_library_name" class="font-semibold text-gray-700"></p>
+                <p data-key="footer_library_tagline"></p>
+                <p data-key="footer_library_contact"></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Data for all content in three languages
+        const content = {
+            // Main Titles
+            main_title: { gu: "લાઈફ કોર્સ", hi: "लाइफ कोर्स", en: "Life Course" },
+            main_subtitle: { gu: "જીવન જીવવાની કળા શીખવતો અભ્યાસક્રમ", hi: "जीवन जीने की कला सिखाने वाला पाठ्यक्रम", en: "A Curriculum to Learn the Art of Living" },
+            header_link: { gu: "'Life Course' મુખ્ય વેબસાઇટની મુલાકાત લો", hi: "'लाइफ कोर्स' मुख्य वेबसाइट पर जाएँ", en: "Visit the main 'Life Course' Website" },
+            
+            // Intro
+            creator_intro: { gu: "'લાઈફ કોર્સ' ના રચયિતા, ગુરુ ભગવંત - પ્રિયમ, જેઓ આપણા સૌના સંસ્કારની ચિંતા કરે છે, તેમને અમારા અનેક વંદન.", hi: "'लाइफ कोर्स' के रचयिता, गुरु भगवंत - प्रियम, जो हम सभी के संस्कारों की चिंता करते हैं, उन्हें हमारा अनेक वंदन।", en: "Our deepest respects to 'Life Course' creator, Guru Bhagwant - Priyam, who cares for the values of us all." },
+            intro_text: { gu: "આજના યુગમાં યુવાનોને શાળા-કોલેજમાં દૂષણોથી બચાવવા અને નૈતિક મૂલ્યો સાથે જીવન જીવવા માટેનું માર્ગદર્શન આપતો આ એક અનોખો ડિજિટલ કોર્સ છે. યુગ અને સંયમ વચ્ચેના સંવાદો દ્વારા, આ કોર્સ જીવનના દરેક પાસા પર પ્રકાશ પાડે છે.", hi: "आज के युग में युवाओं को स्कूल-कॉलेज में बुराइयों से बचाने और नैतिक मूल्यों के साथ जीवन जीने के लिए मार्गदर्शन देने वाला यह एक अनूठा डिजिटल कोर्स है। युग और संयम के बीच संवादों के माध्यम से, यह कोर्स जीवन के हर पहलू पर प्रकाश डालता है।", en: "This is a unique digital course that guides today's youth to avoid vices in school and college and to live a life with moral values. Through dialogues between Yug and Sanyam, this course sheds light on every aspect of life." },
+            
+            // Why What Section
+            why_what_title: { gu: "લાઈફ કોર્સ શા માટે? અને શું છે?", hi: "लाइफ कोर्स क्यों? और क्या है?", en: "Why Life Course? And What Is It?" },
+            why_what_p1: {
+                gu: `યુગ અને સંયમ વચ્ચેના સંવાદો દ્વારા 'Life Course',ના પ્રથમ 15 ચેપ્ટર યુવા પેઢીના ચારિત્ર્ય નિર્માણ માટે મહત્ત્વપૂર્ણ માર્ગદર્શન પૂરું પાડે છે. સંયમ યુગને "ઔચિત્ય" (યોગ્યતા) સમજાવે છે, જે સુખી જીવનનો રહસ્ય છે. આનાથી યુવાનો સમજી શકે છે કે પરિસ્થિતિ અનુસાર વર્તન કેવી રીતે કરવું, અને સેવા કરવી એ પણ આનંદદાયક હોઈ શકે છે. "મર્યાદા" (હદ) નું પાલન કરવાથી જીવનમાં શુદ્ધતા અને સુખ જળવાઈ રહે છે, જેમ ક્રિકેટમાં ક્રિઝનું પાલન કરવું જરૂરી છે.`,
+                hi: `युग और संयम के बीच संवादों के माध्यम से 'लाइफ कोर्स' के पहले 15 अध्याय युवा पीढ़ी के चरित्र निर्माण के लिए महत्वपूर्ण मार्गदर्शन प्रदान करते हैं। संयम युग को "औचित्य" (योग्यता) समझाता है, जो सुखी जीवन का रहस्य है। इससे युवा समझ सकते हैं कि परिस्थिति के अनुसार व्यवहार कैसे करें, और सेवा करना भी आनंददायक हो सकता है। "मर्यादा" (सीमा) का पालन करने से जीवन में पवित्रता और सुख बना रहता है, जैसे क्रिकेट में क्रीज का पालन करना आवश्यक है।`,
+                en: `Through dialogues between Yug and Sanyam, the first 15 chapters of 'Life Course' provide crucial guidance for the character development of the young generation. Sanyam explains "Auchitya" (appropriateness) to Yug, which is the secret to a happy life. This helps youth understand how to behave according to the situation and that service can also be joyful. Adhering to "Maryada" (limitations) maintains purity and happiness in life, just as following the crease is necessary in cricket.`
+            },
+            why_what_p2: {
+                gu: `"વિવેક" (સમજદારી) દ્વારા યુવાનો સારા-નરસાનો ભેદ પારખી શકે છે અને ખરાબ પ્રભાવોથી દૂર રહી શકે છે. આનાથી તેઓ શારીરિક અને માનસિક નુકસાનથી બચી શકે છે. "શીલ" (ચારિત્ર્ય) ની મહત્તા સમજાવવામાં આવી છે, અને આજની વિપરીત પરિસ્થિતિઓમાં પણ તેને કેવી રીતે જાળવી શકાય તેના પર ભાર મૂકવામાં આવ્યો છે, જે શૈલીના ઉદાહરણ દ્વારા સ્પષ્ટ થાય છે. "સ્માર્ટફોન" ના ગેરફાયદા વર્ણવીને યુવાનોને તેનાથી થતા નુકસાન, ખાસ કરીને પારિવારિક સંબંધો અને સ્વાસ્થ્ય પર થતી ખરાબ અસરથી વાકેફ કરવામાં આવ્યા છે.`,
+                hi: `"विवेक" (समझदारी) के द्वारा युवा अच्छे-बुरे का भेद समझ सकते हैं और बुरे प्रभावों से दूर रह सकते हैं। इससे वे शारीरिक और मानसिक नुकसान से बच सकते हैं। "शील" (चरित्र) की महत्ता समझाई गई है, और आज की विपरीत परिस्थितियों में भी इसे कैसे बनाए रखा जाए, इस पर जोर दिया गया है, जो शैली के उदाहरण से स्पष्ट होता है। "स्मार्टफोन" के नुकसानों का वर्णन करके युवाओं को उससे होने वाले नुकसान, विशेष रूप से पारिवारिक संबंधों और स्वास्थ्य पर पड़ने वाले बुरे प्रभाव से अवगत कराया गया है।`,
+                en: `Through "Vivek" (discretion), young people can distinguish between good and bad and stay away from negative influences. This helps them avoid physical and mental harm. The importance of "Sheel" (character) is explained, with emphasis on how to maintain it even in today's adverse situations, clarified through Shaili's example. By describing the disadvantages of the "Smartphone," the youth are made aware of the harm it causes, especially to family relationships and health.`
+            },
+            why_what_p3: {
+                gu: `"માતા-પિતાને જાણો" શીર્ષક હેઠળ, યુવાનોને માતા-પિતાના બલિદાન અને પ્રેમની કદર કરવાનું શીખવવામાં આવ્યું છે, જે સંબંધોમાં આદર અને સેવાભાવ વિકસાવે છે. "મિત્રતા" વિશે સંયમ સ્પષ્ટ કરે છે કે સારા મિત્રો કેવી રીતે પસંદ કરવા, જેઓ ધાર્મિક હોય અને જીવનમાં સકારાત્મક પ્રભાવ પાડે. આનાથી યુવાનો ખરાબ સંગતથી બચી શકે છે. "અભ્યાસ" પ્રકરણમાં, વર્તમાન શિક્ષણ પ્રણાલીની મર્યાદાઓ અને વાસ્તવિક જ્ઞાનનું મહત્ત્વ સમજાવવામાં આવ્યું છે, જેથી યુવાનો નોકરીલક્ષી શિક્ષણ ઉપરાંત જીવનલક્ષી જ્ઞાન પર ધ્યાન આપે.`,
+                hi: `"माता-पिता को जानें" शीर्षक के तहत, युवाओं को माता-पिता के बलिदान और प्रेम की सराहना करना सिखाया जाता है, जो रिश्तों में सम्मान और सेवा की भावना विकसित करता है। "मित्रता" के बारे में संयम स्पष्ट करता है कि कैसे अच्छे दोस्त चुनें, जो धार्मिक हों और जीवन में सकारात्मक प्रभाव डालें। इससे युवा बुरी संगत से बच सकते हैं। "अभ्यास" अध्याय में, वर्तमान शिक्षा प्रणाली की सीमाओं और वास्तविक ज्ञान के महत्व को समझाया गया है, ताकि युवा नौकरी-उन्मुख शिक्षा के अलावा जीवन-उन्मुख ज्ञान पर ध्यान केंद्रित करें।`,
+                en: `Under the title "Know Your Parents," youth are taught to appreciate the sacrifices and love of their parents, which cultivates respect and a sense of service in relationships. Regarding "Friendship," Sanyam clarifies how to choose good friends who are righteous and have a positive influence on life. This helps youth avoid bad company. In the "Study" chapter, the limitations of the current education system and the importance of real knowledge are explained, so that young people focus on life-oriented knowledge in addition to job-oriented education.`
+            },
+            why_what_p4: {
+                gu: `"વ્યવસાય" માં, ધર્મસંગત અને નૈતિક રીતે પૈસા કમાવવાના માર્ગો દર્શાવવામાં આવ્યા છે, જેથી યુવાનો પાપયુક્ત વ્યવસાયોથી દૂર રહી શકે. "પ્રભુપૂજા", "સમયિક" અને "મંદિર" ના મહત્ત્વ દ્વારા યુવાનોને આધ્યાત્મિકતા સાથે જોડાવા અને ધાર્મિક ક્રિયાઓ પાછળના વૈજ્ઞાનિક અને આધ્યાત્મિક લાભો સમજાવવામાં આવ્યા છે. આ બધા પાઠ યુવા પેઢીને એક મજબૂત, નૈતિક અને સંતુલિત ચારિત્ર્ય નિર્માણમાં મદદ કરી શકે છે, જે આજે ખૂબ જ જરૂરી છે કારણ કે સામાજિક અને નૈતિક મૂલ્યોનું પતન થઈ રહ્યું છે. આનાથી તેઓ માત્ર પોતાનું જ નહીં, પરંતુ સમાજ અને રાષ્ટ્રનું પણ કલ્યાણ કરી શકે છે.`,
+                hi: `"व्यवसाय" में, धर्मसंगत और नैतिक रूप से पैसा कमाने के तरीके दिखाए गए हैं, ताकि युवा पापपूर्ण व्यवसायों से दूर रह सकें। "प्रभु पूजा", "सामायिक" और "मंदिर" के महत्व के माध्यम से युवाओं को आध्यात्मिकता से जुड़ने और धार्मिक क्रियाओं के पीछे के वैज्ञानिक और आध्यात्मिक लाभों को समझाया गया है। ये सभी पाठ युवा पीढ़ी को एक मजबूत, नैतिक और संतुलित चरित्र बनाने में मदद कर सकते हैं, जो आज बहुत आवश्यक है क्योंकि सामाजिक और नैतिक मूल्यों का पतन हो रहा है। इससे वे न केवल अपना, बल्कि समाज और राष्ट्र का भी कल्याण कर सकते हैं।`,
+                en: `In "Profession," righteous and ethical ways of earning money are shown, so that youth can stay away from sinful occupations. Through the importance of "Prabhu Puja" (worship), "Samayik" (equanimity), and "Temple," young people are connected to spirituality and the scientific and spiritual benefits behind religious practices are explained. All these lessons can help the young generation build a strong, moral, and balanced character, which is very necessary today as social and moral values are declining. With this, they can contribute to the welfare of not only themselves but also society and the nation.`
+            },
+
+            // How to use
+            how_to_use_title: { gu: "અભ્યાસ કેવી રીતે કરવો?", hi: "अध्ययन कैसे करें?", en: "How to Study?" },
+            features_title: { gu: "ડિજિટલ અભ્યાસ સામગ્રી", hi: "डिजिटल अध्ययन सामग्री", en: "Digital Study Material" },
+            features_intro: { gu: "દરેક પ્રકરણ માટે નીચે મુજબની ઓનલાઈન સામગ્રી ગુજરાતી અને અંગ્રેજીમાં ઉપલબ્ધ છે:", hi: "प्रत्येक अध्याय के लिए निम्नलिखित ऑनलाइन सामग्री गुजराती और अंग्रेजी में उपलब्ध है:", en: "The following online material is available for each chapter in Gujarati and English:"},
+            feature_1: { gu: "<b>ઓડિયો લેક્ચર / પ્રવચન (ઊંડાણમાં)</b> (10 - 15 મિનિટ)", hi: "<b>ऑडियो लेक्चर / प्रवचन (गहराई से)</b> (10 - 15 मिनट)", en: "<b>Audio Lecture / Discourse (In-depth)</b> (10 - 15 minutes)" },
+            feature_2: { gu: "<b>પોડકાસ્ટ: વાર્તાલાપ - ચર્ચા (સારાંશ)</b> (5 - 7 મિનિટ)", hi: "<b>पॉडकास्ट: वार्तालाप - चर्चा (सारांश)</b> (5 - 7 मिनट)", en: "<b>Podcast: Dialogue - Discussion (Summary)</b> (5 - 7 minutes)" },
+            feature_3: { gu: "<b>દ્રશ્ય પ્રસ્તુતિ / વિઝ્યુઅલ પ્રેઝન્ટેશન (સારાંશ)</b> (2 - 3 મિનિટ)", hi: "<b>दृश्य प्रस्तुति / विज़ुअल प्रेजेंटेशन (सारांश)</b> (2 - 3 मिनट)", en: "<b>Visual Presentation (Summary)</b> (2 - 3 minutes)" },
+            feature_4: { gu: "<b>વિવિધ ક્વિઝ</b> (5 - 7 મિનિટ)", hi: "<b>विभिन्न क्विज़</b> (5 - 7 मिनट)", en: "<b>Various Quizzes</b> (5 - 7 minutes)" },
+            
+            study_plan_title: { gu: "અભ્યાસ યોજના", hi: "अध्ययन योजना", en: "Study Plans" },
+            short_study_title: { gu: "A. ટૂંકો અભ્યાસ (10-15 min)", hi: "A. संक्षिप्त अध्ययन (10-15 min)", en: "A. Short Study (10-15 min)" },
+            short_study_desc: { gu: "પોડકાસ્ટ + દ્રશ્ય પ્રસ્તુતિ + ક્વિઝ", hi: "पॉडकास्ट + विज़ुअल प्रेजेंटेशन + क्विज़", en: "Podcast + Visual Presentation + Quiz" },
+            short_study_use: { gu: "આદર્શ: સેલ્ફ સ્ટડી, રિવિઝન, ફેમિલી સ્ટડી", hi: "आदर्श: सेल्फ स्टडी, रिवीजन, फैमिली स्टडी", en: "Ideal for: Self-study, Revision, Family Study"},
+            full_study_title: { gu: "B. સંપૂર્ણ અભ્યાસ (25-40 min)", hi: "B. संपूर्ण अध्ययन (25-40 min)", en: "B. Complete Study (25-40 min)" },
+            full_study_desc: { gu: "ઓડિયો લેક્ચર + પોડકાસ્ટ + દ્રશ્ય પ્રસ્તુતિ + ક્વિઝ", hi: "ऑडियो लेक्चर + पॉडकास्ट + विज़ुअल प्रेजेंटेशन + क्विज़", en: "Audio Lecture + Podcast + Visual Presentation + Quiz" },
+            full_study_use: { gu: "આદર્શ: ગ્રુપ સ્ટડી, પાઠશાળા, ક્લાસ વર્ક", hi: "आदर्श: ग्रुप स्टडी, पाठशाला, क्लास वर्क", en: "Ideal for: Group Study, Pathshala, Class Work"},
+
+            usage_title: { gu: "ઉપયોગ અને વિશેષતાઓ", hi: "उपयोग और विशेषताएँ", en: "Usage and Features" },
+            usage_1: { gu: "<b>સરળ ઉપયોગ:</b> આ મટીરીયલ ખૂબ જ સરળ છે, જે મોબાઇલ અને સ્પીકરથી પણ વાપરી શકાય છે.", hi: "<b>सरल उपयोग:</b> यह सामग्री बहुत सरल है, जिसे मोबाइल और स्पीकर से भी इस्तेमाल किया जा सकता है।", en: "<b>Easy to Use:</b> This material is very simple and can be used even with a mobile and speaker." },
+            usage_2: { gu: "<b>વિવિધ પ્લેટફોર્મ:</b> ટીવી કે પ્રોજેક્ટર પર બતાવીને ગ્રુપમાં પણ અભ્યાસ કરી શકાય છે.", hi: "<b>विभिन्न प्लेटफ़ॉर्म:</b> टीवी या प्रोजेक्टर पर दिखाकर समूह में भी अध्ययन किया जा सकता है।", en: "<b>Multiple Platforms:</b> It can also be studied in groups by displaying on a TV or projector." },
+            usage_3: { gu: "<b>શિક્ષણ સામગ્રી:</b> આ મટીરીયલ, સેલ્ફ સ્ટડી અને પાઠશાળાના શિક્ષકો તથા માતા-પિતા માટે ટીચિંગ મટીરીયલ તરીકે ઉપયોગી છે.", hi: "<b>शिक्षण सामग्री:</b> यह सामग्री, सेल्फ स्टडी और पाठशाला के शिक्षकों तथा माता-पिता के लिए शिक्षण सामग्री के रूप में उपयोगी है।", en: "<b>Teaching Material:</b> This material is useful as teaching material for self-study, Pathshala teachers, and parents." },
+            usage_4: { gu: "<b>હોમવર્ક/ક્લાસવર્ક:</b> પ્રિન્ટ કરી શકાય તેવી Word ફાઇલો ડાઉનલોડ કરી શકાય છે, જેમાં પ્રકરણની શીખ અને ક્વિઝ હોય છે.", hi: "<b>होमवर्क/क्लास वर्क:</b> प्रिंट करने योग्य Word फ़ाइलें डाउनलोड की जा सकती हैं, जिनमें अध्याय की सीख और क्विज़ होती है।", en: "<b>Homework/Classwork:</b> Printable Word files can be downloaded, containing chapter lessons and quizzes." },
+            usage_5: { gu: "<b>પ્રમાણિત ઉપયોગ:</b> રાજનગર, અમદાવાદની જ્ઞાનસેતુ લાઇબ્રેરીની શિબિરમાં આ મટીરીયલનો સફળતાપૂર્વક ઉપયોગ થઈ ચૂક્યો છે.", hi: "<b>प्रमाणित उपयोग:</b> राजनगर, अहमदाबाद की ज्ञानसेतु लाइब्रेरी के शिविर में इस सामग्री का सफलतापूर्वक उपयोग किया जा चुका है।", en: "<b>Proven Use:</b> This material has been successfully used in the camp of GyanSetu Library, Rajnagar, Ahmedabad." },
+            
+            // Links
+            links_title: { gu: "મહત્વપૂર્ણ લિંક્સ", hi: "महत्वपूर्ण लिंक्स", en: "Important Links" },
+            link_website: { gu: "મુખ્ય વેબસાઇટ (ડિજિટલ)", hi: "मुख्य वेबसाइट (डिजिटल)", en: "Main Website (Digital)" },
+            link_gdrive: { gu: "Word ફાઇલ ડાઉનલોડ (Google Drive)", hi: "Word फ़ाइल डाउनलोड (Google Drive)", en: "Download Word file (Google Drive)" },
+            link_onedrive: { gu: "Word ફાઇલ ડાઉનલોડ (OneDrive)", hi: "Word फ़ाइल डाउनलोड (OneDrive)", en: "Download Word file (OneDrive)" },
+            link_whatsapp: { gu: "WhatsApp ગ્રુપમાં જોડાઓ", hi: "WhatsApp ग्रुप से जुड़ें", en: "Join WhatsApp Group" },
+
+            // Footer
+            footer_contact: { gu: "સંપર્ક અને સૂચનો માટે:", hi: "संपर्क और सुझावों के लिए:", en: "For Contact & Suggestions:" },
+            footer_library_name: { gu: "અમદાવાદની જ્ઞાનસેતુ લાઇબ્રેરી", hi: "अहमदाबाद की ज्ञानसेतु लाइब्रेरी", en: "GyanSetu Library, Ahmedabad" },
+            footer_library_tagline: { gu: "જિનશાસનનું અદ્ભુત સાહિત્ય એક સાથે ઉપલબ્ધ", hi: "जिनशासन का अद्भुत साहित्य एक साथ उपलब्ध", en: "Wonderful literature of Jinshasan available together" },
+            footer_library_contact: { gu: "નિયામકશ્રી M. 9328378963, 9825633711", hi: "नियामकश्री M. 9328378963, 9825633711", en: "Director M. 9328378963, 9825633711" }
+        };
+        
+        function changeLanguage(lang) {
+            // Update all elements with data-key
+            document.querySelectorAll('[data-key]').forEach(elem => {
+                const key = elem.getAttribute('data-key');
+                if (content[key] && content[key][lang]) {
+                    // For list items, we target the inner content
+                    if (elem.tagName === 'LI') {
+                        // If the LI has a span child, it's a feature list item.
+                        if (elem.querySelector('span:last-child')) {
+                            elem.querySelector('span:last-child').innerHTML = content[key][lang];
+                        } else { // Otherwise it's a simple list item
+                            elem.innerHTML = content[key][lang];
+                        }
+                    } else {
+                        elem.innerHTML = content[key][lang];
+                    }
+                }
+            });
+
+            // Update active button style
+            ['gu', 'hi', 'en'].forEach(l => {
+                document.getElementById(`btn-${l}`).classList.remove('active');
+            });
+            document.getElementById(`btn-${lang}`).classList.add('active');
+
+            // Set html lang attribute
+            document.documentElement.lang = lang;
+        }
+
+        // Initial load
+        document.addEventListener('DOMContentLoaded', () => {
+            changeLanguage('gu'); // Set default language to Gujarati
+        });
+    </script>
+</body>
+</html>
